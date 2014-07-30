@@ -40,3 +40,13 @@ What each file in /var/www/scripts does:
   - midilights.py
     - a sort of bonus script, not run from the web control panel, this will accept midi input (requires pygame) and turn lights on accordingly
   
+
+What the other files not in the scripts folder do:
+  - index.html
+    - This is the main control page for the system, it is written using the jQuery Mobile styles and stuff
+  - origcontrol.html
+    - This was what I was using before I switched to the prettier and more useful jQuery Mobile stuff
+  - outlets.js
+    - This goes with origcontrol.html and is not used with the newer jQuery Mobile control page
+  - outlets2.js
+    - This goes with the current index.html and is responsible for all the logic 
