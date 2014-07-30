@@ -50,3 +50,5 @@ What the other files not in the scripts folder do:
     - This goes with origcontrol.html and is not used with the newer jQuery Mobile control page
   - outlets2.js
     - This goes with the current index.html and is responsible for all the logic 
+  - outlets.css
+    - This was some stylesheet stuff I was working on, it goes with origcontrol.html and is not used currently
