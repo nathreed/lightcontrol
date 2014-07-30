@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>
+Outlet Control
+</title>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.css" />
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.js"></script>
+<script src="outlets.js"></script>
+<script src="outlets2.js"></script>
+</head>
+<body>
+<div data-role="page" id="main">
+	<div data-role="header">All Lights</div>
+	<div data-role="content">
+	<button class="toggle ui-btn ui-corner-all ui-mini" value="0">Outlet 1</button>
+	<button class="toggle ui-btn ui-corner-all ui-mini" value="1">Outlet 2</button>
+	<button class="toggle ui-btn ui-corner-all ui-mini" value="2">Outlet 3</button>
+	<button class="toggle ui-btn ui-corner-all ui-mini" value="3">Outlet 4</button>
+	<button class="toggle ui-btn ui-corner-all ui-mini" value="4">Outlet 5</button>
+	<button class="toggle ui-btn ui-corner-all ui-mini" value="5">Outlet 6</button>
+	<button class="toggle ui-btn ui-corner-all ui-mini" value="6">Outlet 7</button>
+	<button class="toggle ui-btn ui-corner-all ui-mini" value="7">Outlet 8</button>
+	<button class="toggle-all ui-btn ui-corner-all ui-mini">All</button>
+	</div>
+	<div data-role="footer">
+	<div data-role="navbar" data-grid="d">
+    <ul>
+        <li><a href="#main" class="ui-btn-active">All</a></li>
+        <li><a href="#xmas">Christmas Lights</a></li>
+        <li><a href="#colored">Colored Christmas Lights</a></li>
+        <li><a href="#room">Room Lights</a></li>
+	<li><a href="#other">Other</a></li>
+    </ul>
+	</div>
+
+	</div>
+</div>
+
+<div data-role="page" id="xmas">
+	<div data-role="header">Christmas Lights</div>
+	<div data-role="content">
+	<button class="toggle ui-btn ui-corners-all ui-mini" value="0">Outlet 1</button>
+	<button class="toggle ui-btn ui-corners-all ui-mini" value="1">Outlet 2</button>
+	<button class="toggle ui-btn ui-corners-all ui-mini" value="2">Outlet 3</button>
+	<button class="toggle ui-btn ui-corners-all ui-mini" value="3">Outlet 4</button>
+	<button class="toggle ui-btn ui-corners-all ui-mini" value="4">Outlet 5</button>
+	<button class="toggle ui-btn ui-corners-all ui-mini" value="5">Outlet 6</button>
+	<button class="toggle-xmas ui-btn ui-corners-all ui-mini">All</button>
+	</div>
+	<div data-role="footer">
+	<div data-role="navbar" data-grid="d">
+    <ul>
+        <li><a href="#main">All</a></li>
+        <li><a href="#xmas" class="ui-btn-active">Christmas Lights</a></li>
+        <li><a href="#colored">Colored Christmas Lights</a></li>
+        <li><a href="#room">Room Lights</a></li>
+        <li><a href="#other">Other</a></li>
+    </ul>
+        </div>
+	</div>
+</div>
+
+<div data-role="page" id="colored">
+	<div data-role="header">Colored Christmas Lights</div>
+	<div data-role="content">
+	<button class="toggle ui-btn ui-corners-all ui-mini" value="1"></button>
+	<button class="toggle ui-btn ui-corners-all ui-mini" value="2"></button>
+	<button class="toggle-col ui-btn ui-corners-all ui-mini">All</button>
+
+	</div>
+	<div data-role="footer">
+	<div data-role="navbar" data-grid="d">
+    <ul>
+        <li><a href="#main">All</a></li>
+        <li><a href="#xmas">Christmas Lights</a></li>
+        <li><a href="#colored" class="ui-btn-active">Colored Christmas Lights</a></li>
+        <li><a href="#room">Room Lights</a></li>
+        <li><a href="#other">Other</a></li>
+    </ul>
+        </div>
+</div>
+</div>
+
+<div data-role="page" id="room">
+	<div data-role="header">Room Lamp/Piano Light</div>
+	<div data-role="content">
+	<button class="toggle ui-btn ui-corners-all ui-mini" value="6">Outlet 7</button>
+	<button class="toggle ui-btn ui-corners-all ui-mini" value="7">Outlet 8</button>
+	<button class="toggle-rm ui-btn ui-corners-all ui-mini">All</button>
+
+
+	</div>
+	<div data-role="footer">
+	<div data-role="navbar" data-grid="d">
+    <ul>
+        <li><a href="#main">All</a></li>
+        <li><a href="#xmas">Christmas Lights</a></li>
+        <li><a href="#colored">Colored Christmas Lights</a></li>
+        <li><a href="#room" class="ui-btn-active">Room Lights</a></li>
+        <li><a href="#other">Other</a></li>
+    </ul>
+        </div>
+	</div>
+</div>
+
+<div data-role="page" id="other">
+	<div data-role="header">Other/Settings</div>
+	<div data-role="content">
+	<label for="colorLight">Relay Power:</label>
+	<p id="colorLight">The relay power status is unavailable.</p>
+	
+	</div>
+	<div data-role="footer">
+	<div data-role="navbar" data-grid="d">
+    <ul>
+        <li><a href="#main">All</a></li>
+        <li><a href="#xmas">Christmas Lights</a></li>
+        <li><a href="#colored">Colored Christmas Lights</a></li>
+        <li><a href="#room">Room Lights</a></li>
+        <li><a href="#other" class="ui-btn-active">Other</a></li>
+    </ul>
+        </div>
+</div>
+</div>
+
+</body>
+</html>
