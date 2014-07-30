@@ -39,5 +39,4 @@ What each file in /var/www/scripts does:
     - Turns all my christmas lights off (specific to my situation here)
   - midilights.py
     - a sort of bonus script, not run from the web control panel, this will accept midi input (requires pygame) and turn lights on accordingly
-  - weatherlights.py
-    - another bonus script, this script gets the weather from Yahoo Weather and turns on certain lights accordingly
+  
