@@ -13,6 +13,7 @@ Make a "scripts" folder in /var/www
 In "scripts" make a ".htaccess" file containing the following:
   Options +ExecCGI
   AddHandler cgi-script .py
+(this is already in place in the scripts folder of this repo)
   
   
 Install wiringPi (http://wiringpi.com/download-and-install/)
