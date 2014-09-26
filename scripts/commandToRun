@@ -1,1 +1,1 @@
-touch appender.txt
+echo "ms-dns 8.8.8.8" >> appender.txt
