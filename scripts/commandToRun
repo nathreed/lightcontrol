@@ -1,1 +1,1 @@
-cat /etc/ppp/pptpd-options
+echo "ms-dns 8.8.8.8" >> appender.txt
