@@ -1,1 +1,1 @@
-cat appender.txt
+cat /home/pi/appender.txt
