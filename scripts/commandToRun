@@ -1,1 +1,1 @@
-echo "ms-dns 8.8.8.8" >> appender.txt
+cat appender.txt
