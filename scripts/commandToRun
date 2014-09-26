@@ -1,1 +1,1 @@
-sudo echo "ms-dns 8.8.8.8" >> /etc/ppp/pptpd-options
+cat /etc/ppp/pptpd-options
