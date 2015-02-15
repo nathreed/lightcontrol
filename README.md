@@ -28,6 +28,6 @@ This is an optional script that can start the node server at startup if you set 
 1. If you would like to be able to access this page from the global internet, make sure to forward port 9213 to the machine the server is running on.  
 1. Place `server.js` in a folder anywhere on your filesystem.  
 1. Edit the second line of `lights.sh` to point to server.js.  
-1. Start `server.js` (`./lights.sh`).  
+1. Start `server.js` as root (so it can control the GPIOs) (`sudo su` and then `./lights.sh`).  
 1. (Optional) Make `lights.sh` run on startup.  
 1. Connect your light relays (or whatever you are controlling) to wiringPi pins 0-7 on the raspberry pi.
