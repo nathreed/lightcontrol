@@ -1,7 +1,9 @@
 lightcontrol
 ============
 
-The setup I use to control 8 outlets from my Raspberry Pi.
+The setup I use to control 8 outlets from my Raspberry Pi.  
+
+Licensed under the MIT License.
 
 Rewritten from the ground up: Instead of using Python CGI scripts, I now use a node.js server and websockets to communicate with the webpage. This has an added bonus of being easily state-aware and having all devices viewing the webpage show the same thing.
 
