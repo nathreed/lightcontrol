@@ -25,7 +25,7 @@ This is an optional script that can start the node server at startup if you set 
 1. Edit the `wsUri` variable in `outlets.js` to point to the machine the node.js server will be running on.  
 1. If you would like to be able to access this page from the global internet, make sure to forward port 9213 to the machine the server is running on.  
 1. Place `server.js` in a folder anywhere on your filesystem.  
-1. (Optional) Edit `lights.sh` to point to server.js.  
+1. Edit the second line of `lights.sh` to point to server.js.  
 1. Start `server.js` (`./lights.sh`).  
 1. (Optional) Make `lights.sh` run on startup.  
 1. Connect your light relays (or whatever you are controlling) to wiringPi pins 0-7 on the raspberry pi.
